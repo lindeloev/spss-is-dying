@@ -10,7 +10,7 @@ searches = list(
   SAS = '"SAS Institute" -JMP -"Enterprise Miner"',
   STATA = '("stata" "college station") OR "StataCorp" OR "Stata Corp" OR "Stata Journal" OR "Stata Press" OR "stata command" OR "stata module"',
   Prism = 'GraphPad Prism',
-  JASP = '("jasp" (bayesian OR bayes OR wagenmakers) OR ("jasp package" OR "jasp software" OR "jasp team" OR "jasp-stats") -"jasper" -"joint attention symbolic" -EURASIP -"Journal of Applied School Psychology" -"Journal of Applied social psychology"',
+  JASP = '("jasp" (bayesian OR bayes OR wagenmakers) OR ("jasp package" OR "jasp software" OR "jasp team" OR "jasp-stats") -"jasper" -"joint attention symbolic" -EURASIP -"Journal of Applied School Psychology" -"Journal of Applied social psychology"'
 )
 sleep_interval = c(1, 10)  # Uniformly break between searches in this interval to prevent scholar from rejecting searches
 scholar_prefix = 'https://scholar.google.dk/scholar?hl=en&as_sdt=0%2C5&as_ylo=9999&as_yhi=9999&q='
